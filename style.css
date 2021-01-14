@@ -46,51 +46,38 @@ span{
 
 
 
-/*media qr css*/
 
-/* Smartphones (portrait and landscape) ---------- */
-@media screen and (min-width: 320px) and (max-width: 480px){
-   
+
+/* media Query part  */
+@media only screen  and (max-width: 1199px) {
+
 }
-/* Smartphones (portrait) ---------- */
-@media screen and (max-width: 320px){
-     .harderpart .row .icon-size .col-sm-8 img {
+
+@media only screen  and (max-width: 991px) {
+    
+}
+
+@media only screen  and (max-width: 767px) {
+    
+}
+
+@media only screen  and (max-width: 575px) {
+    .harderpart .row .icon-size .col-sm-8 img {
     
       
     }
-   
-}
-/* Smartphones (landscape) ---------- */
-@media screen and (min-width: 321px){
+
     .carsoal-button, .w-25 {
         width: auto;
         text-align: center;
     } 
     
-    .harderpart .row .icon-size .col-sm-8 img {
+    .harderpart .row .icon-size .col-sm-8  .w-50 img {
     
-      
+      width: 100%;;
     }
-}
-/* Tablets, iPads (portrait and landscape) ---------- */
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    /* styles */
-}
-/* Tablets, iPads (portrait) ---------- */
-@media screen and (min-width: 768px){
-    /* styles */
-}
-/* Tablets, iPads (landscape) ---------- */
-@media screen and (min-width: 1024px){
-    /* styles */
-}
-/* Desktops and laptops ---------- */
-@media screen and (min-width: 1224px){
-    /* styles */
-}
-/* Large screens ---------- */
-@media screen and (min-width: 1824px){
-    /* styles */
+
+    
 }
 
 
