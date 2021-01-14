@@ -1,0 +1,112 @@
+.navbar {background-color: #ffdbdb;
+    
+}
+
+.navbar-nav{
+    margin-left: auto;
+    
+    
+}
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 400;
+    padding-right: 12px;
+}
+.navbar-nav .nav-link:hover {
+    color: darkgray;
+    font-weight: 400;
+}
+
+.header-section .container{
+
+}
+
+
+span{
+    color:cornflowerblue;}
+
+
+
+.complextPart{
+    display: flex;
+    
+
+}
+
+.left{
+    display: flex;
+}
+.col-md-4 {
+    padding: 10px;
+}
+
+.right img{
+    width: 400px;
+}
+
+
+
+/*media qr css*/
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+   
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+     .harderpart .row .icon-size .col-sm-8 img {
+    
+      
+    }
+   
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+    .carsoal-button, .w-25 {
+        width: auto;
+        text-align: center;
+    } 
+    
+    .harderpart .row .icon-size .col-sm-8 img {
+    
+      
+    }
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /* styles */
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+    /* styles */
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+    /* styles */
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+    /* styles */
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+    /* styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
